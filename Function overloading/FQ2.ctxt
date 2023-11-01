@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FQ2
+comment1.params=str\ ch
+comment1.target=void\ check(java.lang.String,\ char)
+numComments=2

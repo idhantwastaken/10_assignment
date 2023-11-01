@@ -19,9 +19,22 @@ class FQ1{
 
     static void m(){
         Scanner sc = new Scanner(System.in);
+        FQ1 obj = new FQ1();
+
         System.out.println("Enter the radius of the sphere");
+        double r = sc.nextDouble();
+        System.out.println("Volume of the sphere :" + obj.volume(r));
 
         System.out.println("Enter the height and radius of the cylinder");
-        System.out.println("Enter the length, breadth and height of the cylinder");
+        double h = sc.nextDouble();
+        r = sc.nextDouble();
+        System.out.println("Volume of the cylinder :"+obj.volume(h,r));
+
+        System.out.println("Enter the length, breadth and height of the cuboid");
+        double l = sc.nextDouble();
+        double b = sc.nextDouble();
+        h = sc.nextDouble();
+        System.out.println("Volume of the cuboid :" + obj.volume(l, b, h));
+
     }
 }
